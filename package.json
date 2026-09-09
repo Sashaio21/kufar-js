@@ -1,0 +1,16 @@
+{
+  "name": "kufar-monitor-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Мониторинг новых объявлений на re.kufar.by с уведомлениями в Telegram. Serverless-версия для Vercel (Puppeteer + Vercel Cron + Vercel KV + Telegram webhook).",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^131.0.1",
+    "@vercel/kv": "^3.0.0",
+    "cheerio": "^1.0.0",
+    "puppeteer-core": "^23.10.4"
+  }
+}
